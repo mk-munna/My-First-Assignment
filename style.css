@@ -4,8 +4,8 @@
 }
 
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), 
-    url("resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url("resources/Banner\ Image.png");
     background-size: 1320px 600px;
     height: 600px;
     margin-top: 20px;
@@ -28,4 +28,40 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Style for offer section */
+
+
+.offer {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: inter;
+}
+
+.slogan {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+    font-family: inter;
+}
+
+.offer>h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: inter;
+}
+.offer>img{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
 }
