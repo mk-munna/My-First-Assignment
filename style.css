@@ -3,10 +3,19 @@
     margin: 0;
 }
 
+.first-sec {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* -------------------------Banner section------------------------ */
+
 .banner {
+    width: 1320px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
         url("resources/Banner\ Image.png");
-    background-size: 1120px 600px;
+    background-size: 1320px 600px;
     height: 600px;
     margin-top: 20px;
     background-repeat: no-repeat;
@@ -31,12 +40,13 @@
     font-weight: 900;
 }
 
+/* ---------------------------------------------------------------------- */
 /* Style for offer section */
 
 
 .offer {
     text-align: center;
-    margin:100px auto;
+    margin: 100px auto;
     width: 1320px;
 }
 
@@ -69,6 +79,7 @@
     margin-top: 50px;
 }
 
+/* ---------------------------------------------------------- */
 /* Styles for party section */
 
 .party {
@@ -77,14 +88,14 @@
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 0 100px;
+    gap: 200px;
     background-position: center;
-    background-size: 1120px 600px;
+    background-size: 1320px 600px;
     background-repeat: no-repeat;
     justify-content: center;
 
 }
-    
+
 
 .party-content {
     max-width: 600px;
@@ -118,4 +129,397 @@
     margin-left: 50px;
     margin-top: 50px;
     text-decoration: none;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* style for schedule section */
+
+.schedule {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 480px;
+    text-align: center;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.schedule-content {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 32px 10px 32px;
+    border-radius: 5px;
+
+}
+
+.red {
+    color: #F00;
+}
+
+/* ----------------------------------------------------------- */
+/* style for bonus section */
+.bonus {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.bonus-container {
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    gap: 84px;
+
+}
+
+.bonus-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    margin: 50px 0 20px 0;
+}
+
+.comming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.bonus-des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    width: 380px;
+}
+
+.second-div {
+    border-radius: 500px;
+    border: 15px solid #F00;
+    padding: 30px;
+}
+
+.second-div img {
+    height: 320px;
+    width: 320px;
+    margin: 20px;
+
+}
+
+.bonusyear {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 50px 0 20px 0;
+}
+
+.yeardes {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 280px;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+/* ------------------------------------------------------------------- */
+/* style for discount section */
+
+
+
+
+.discount {
+    margin-top: 120px;
+    width: 1320;
+    text-align: center;
+}
+
+.discount-title-name {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.discount-title-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 30px;
+    width: 1068px;
+    display: inline-block;
+
+}
+
+.holidays {
+    color: #F00;
+}
+
+/* ------------------------------img box---------------------------- */
+/* style start for image box */
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.img-box {
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.surprize-box {
+    width: 797px;
+    height: 663px;
+    position: absolute;
+    margin-right: 500px;
+
+}
+
+.round-img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: 50px 0 0 450px;
+    z-index: 1;
+}
+
+.wow-face {
+    width: 429px;
+    height: 432px;
+    margin-left: 890px;
+    position: absolute;
+}
+
+.red-img {
+    margin-top: 432px;
+}
+
+/* img box end */
+
+/* -----------------------Portfolio------------------------ */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.port-container {
+    width: 1320px;
+
+}
+
+.port-pre-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.port-title {
+    margin-top: 16px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.port-des {
+    margin-top: 22px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 890px;
+}
+
+.grid{
+    margin-top: 48px;
+}
+.first-grid{
+    display: flex;
+    gap: 24px;
+}
+.second-grid{
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+/* styles for newslatter section */
+.newslatter {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.newslatter-container {
+    width: 1320px;
+    height: 616px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.newslatter-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.newslatter img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.newslatter-content {
+    margin-top: 30px;
+    max-width: 800px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+.newslatter input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    background-color: #FFF;
+    padding: 0 35px;
+    width: 438px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.newslatter form {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.newslatter form button {
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 60px 25px 60px;
+    cursor: pointer;
+
+}
+
+.newslatter input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* -------------------------fooooooooter------------- */
+/* style for footer */
+footer {
+    background: #070211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+
+    width: 1320px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.ft-one {
+    margin: 120px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.ft-one p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ft-one a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.ft-two {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ft-three {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 100px 0;
+}
+
+.ft-three small {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
 }
